@@ -20,7 +20,7 @@ Run `build.bat`
 
 Go into the `/bin` folder  
 
-- `update.exe` — This will find the new print address after each Roblox update. You need a pre-dumped version of the RobloxPlayer (use something like Vulkan PE Dumper).  
+- `update.exe` `<path>` — This will find the new print address after each Roblox update. You need a pre-dumped version of the RobloxPlayer (use something like Vulkan PE Dumper).  
 <img width="2208" height="818" alt="{6824A61C-A4E3-42CA-B51E-B53DE32E6065}" src="https://github.com/user-attachments/assets/d8917aaa-a19c-4012-af4b-c3b179e03036" />
 
 - `printer.exe` — When run, it will inject into Roblox and allow you to print anything you want.  
