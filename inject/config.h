@@ -1,6 +1,8 @@
 #pragma once
 #include <cstdint>
 
-constexpr uintptr_t kPrint = 0x1D59300; // replace this by hand if patch breaks
-constexpr size_t kCaveStart = 0x1000;
-constexpr size_t kCaveEnd   = 0x20000;
+constexpr uintptr_t kPrint   = 0x1D96FB0; // use update.exe on new roblox update
+constexpr uint32_t  kLvPrint = 0, kLvInfo = 1, kLvWarn = 2, kLvErr = 3;
+constexpr uint32_t  kLevel   = kLvPrint;
+
+constexpr size_t kCaveLo = 0x1000, kCaveHi = 0x20000;
